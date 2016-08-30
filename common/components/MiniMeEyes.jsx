@@ -62,11 +62,39 @@ const Eyes4 = <g id="eyes_4">
       style={{ fill: "none", strokeWidth: 3, stroke: "#4e4e4e" }} />
 </g>
 
+const Eyes5 = <g id="eyes_5">
+    <path
+        d="M118.552,166.836c4.507,-6.785 18.262,-6.638 18.262,0"
+        style={{ fill: "none", strokeWidth: 3, stroke: "#4e4e4e" }} />
+    <path
+        d="M168.552,166.836c0,-6.793 12.946,-6.496 18.262,0"
+        style={{ fill: "none", strokeWidth: 3, stroke: "#4e4e4e" }} />
+    <path
+        d="M190.076,158.036c-2.614,-1.676 -13.791,-3.684 -21.445,0"
+        style={{ fill: "none", strokeWidth: 3, stroke: "#4e4e4e" }} />
+    <path
+        d="M115.631,158.036c2.614,-1.676 13.791,-3.684 21.445,0"
+        style={{ fill: "none", strokeWidth: 3, stroke: "#4e4e4e" }} />
+    <path
+        d="M118.541,166.942l-5.154,0.011"
+        style={{ fill: "none", strokeWidth: 3, stroke: "#4e4e4e" }} />
+    <path
+        d="M191.965,166.725l-5.101,0.131"
+        style={{ fill: "none", strokeWidth: 3, stroke: "#4e4e4e" }} />
+    <path
+        d="M186.856,166.769l3.323,-3.324"
+        style={{ fill: "none", strokeWidth: 3, stroke: "#4e4e4e" }} />
+    <path
+        d="M118.287,166.536l-3.728,-3.73"
+        style={{ fill: "none", strokeWidth: 3, stroke: "#4e4e4e" }} />
+  </g>
+
 const eyesById = {
   1: Eyes1,
   2: Eyes2,
   3: Eyes3,
   4: Eyes4,
+  5: Eyes5,
 }
 
 module.exports = ({ id }) => eyesById[id] ||  <g />
